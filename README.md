@@ -20,7 +20,16 @@
 ## 📂 Project Structure
 
 
-<pre><code> HyperXRec/ ├── models/ # Encoder, Decoder, MoE-LLM components ├── vmfmix/ # vMFMM clustering and perturbation ├── data/ # Amazon & TripAdvisor datasets ├── utils/ # Metrics, logging, losses ├── train.py # Entry point for training ├── inference.py # Entry point for inference └── README.md # You’re reading it! </code></pre>
+<pre>
+HyperXRec/
+├── models/         # Encoder, Decoder, MoE-LLM components
+├── vmfmix/         # vMFMM clustering and perturbation
+├── data/           # Amazon & TripAdvisor datasets
+├── utils/          # Metrics, logging, losses
+├── train.py        # Entry point for training
+├── inference.py    # Entry point for inference
+└── README.md       # You’re reading it
+</pre>
 
 ## ⚙️ Dependencies
 
