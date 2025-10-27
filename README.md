@@ -20,3 +20,18 @@
 ## 📂 Project Structure
 
 
+HyperXRec/
+├── models/ # Encoder, Decoder, MoE-LLM components
+├── vmfmix/ # vMFMM clustering and perturbation
+├── data/ # Amazon & TripAdvisor datasets
+├── utils/ # Metrics, logging, losses
+├── train.py # Entry point for training
+├── inference.py # Entry point for inference
+└── README.md # You’re reading it!
+
+## ⚙️ Dependencies
+
+- Python ≥ 3.11
+- PyTorch ≥ 2.10
+- HuggingFace Transformers
+- scikit-learn, faiss, numpy, nltk
